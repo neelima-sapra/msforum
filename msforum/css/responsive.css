@@ -1,0 +1,108 @@
+@media only screen and (min-width:568px){
+	.container{
+		max-width: 100%;
+	}
+}
+@media only screen and (min-width:768px){
+	.container{
+		max-width: 960px;
+	}
+}
+@media only screen and (min-width:1200px){	
+	.container{
+		max-width: 1200px;
+	}
+	#page-sidebar {
+		padding-left: 5%;
+	}
+}
+@media only screen and (max-width:960px){
+	.blog-posts-sec .blog-main, .recent-products-sec .single-product {
+		width: 48%;
+	}
+}
+@media only screen and (max-width:767px){
+	#header-nav ul li{
+		margin-left: 10px;
+	}
+	.site-header {
+		padding: 5px 0;
+	}
+	.blog-posts-sec .blog-main, .recent-products-sec .single-product {
+		width: 100%;
+		    margin: 0;
+		margin-bottom: 30px;
+	}
+	.blog-posts-sec .blog-main:last-of-type,
+	.recent-products-sec .single-product:last-of-type	{
+		margin-bottom: 0;
+	}
+	.site-footer .col-sm-4, #page-content .page-content-wrap, #page-content #page-sidebar {
+		flex: 0 0 100%;
+		max-width: 100%;
+		margin-bottom: 30px;
+	}
+	#page-content #page-sidebar{
+		margin-bottom: 0;
+		margin-top: 30px;
+	}
+	.site-footer .footer-left-sec, .site-footer .footer-right-sec{
+		text-align: center !important;
+	}
+	.site-footer .footer-left-sec img{
+		max-width: 300px;
+	}
+	.site-footer .col-sm-4:last-of-type {
+		margin-bottom: 0;
+	}	
+	.single-section, #footer-top {
+		padding: 50px 0;
+	}
+}
+@media only screen and (max-width: 576px){
+	#header-nav .navbar-toggler{
+		background-color: #e5e5e5;
+		color: #fff;
+		display: block;
+		font-size: 20px;
+		padding: 2px 8px;
+		position: absolute;
+		right: 16px;
+		top: -84px;
+		border: 0;
+		height: 44px;
+		border-radius: 0;
+		outline: none;
+	}
+	.header-right .navbar-collapse {
+		background: #14172a;
+	}
+	#header-nav ul li a {
+		padding: 12px 25px;
+		display:  block;
+		border-bottom: 1px solid #090a13;
+		border-top: 1px solid #212541;
+		color: #fff;
+	}
+	#header-nav ul li {
+		margin: 0;
+	}
+	.post-featured {
+		float: none;
+		margin: 0 0 20px;
+		text-align: center;
+		display: block;
+	}
+}
+@media only screen and (max-width: 400px){
+	.site-header .header-left img {
+		max-width: 220px;
+		width: 100%;
+	}
+	#header-nav .navbar-toggler{
+		top: -72px;
+	}
+	h1 {
+    font-size: 30px;
+}
+}
